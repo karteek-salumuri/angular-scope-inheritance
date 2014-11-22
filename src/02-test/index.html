@@ -9,11 +9,11 @@
   <!-- test 2: binding 'this' with 'controllerAs syntax' -->
   <!-- using the same variable to determine 'controllerAs' helper -->
 
-  <h1>{{ title }}</h1>
+  <h1>{{ vm.title }}</h1>
   <input type="text" ng-model="vm.title">
 
   <div ng-controller="GuitarController as vm">
-    <h3>{{ title }}</h3>
+    <h3>{{ vm.title }}</h3>
     <input type="text" ng-model="vm.title">
   </div>
   

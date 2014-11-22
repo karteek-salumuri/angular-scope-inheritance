@@ -1,7 +1,5 @@
-# Test 1
+# Test 2
 
-### Code without `controllerAs` Syntax
+### Code with `controllerAs` Syntax
 
-**Result**: You can see [here]() that if you use just the `controller` syntax, the child receive the values typed in the parent scope. **This is not good**!
-
-In the moment that you change the child input, the connection between the two `title` variables is lost.
+**Result**: You can see [here]() that if you use the `controllerAs` syntax, even the variables having the same name, they don't produce any interference in each other. **That is very good**!!!
