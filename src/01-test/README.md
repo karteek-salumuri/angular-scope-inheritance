@@ -1,6 +1,6 @@
 # Test 1
 
-## Code without `controllerAs` Syntax
+### Code without `controllerAs` Syntax
 
 **Result**: You can see [here]() that if you use just the `controller` syntax, the child receive the values typed in the parent scope. **This is not good**!
 
