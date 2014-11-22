@@ -1,6 +1,5 @@
 # Teste 2
 
-### Code with `controllerAs` Syntax
 ### Código com Sintaxe `controllerAs`
 
 * Controllers usados: `pageController` e `guitarController`
