@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="guitarApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Test 02</title>
+</head>
+<body ng-controller="PageController as vm">
+
+  <!-- test 2: binding 'this' with 'controllerAs syntax' -->
+  <!-- using the same variable to determine 'controllerAs' helper -->
+
+  <h1>{{ vm.title }}</h1>
+  <input type="text" ng-model="vm.title">
+
+  <div ng-controller="GuitarController as vm">
+    <h3>{{ vm.title }}</h3>
+    <input type="text" ng-model="vm.title">
+  </div>
+  
+  <script src="../angular.js"></script>
+  <script src="app.js"></script>
+  <script src="pageController.js"></script>
+  <script src="guitarController.js"></script>
+</body>
+</html>
