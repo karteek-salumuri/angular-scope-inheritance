@@ -6,9 +6,11 @@
     .module( 'guitarApp' )
     .controller( 'GuitarController', GuitarController );
 
-  GuitarController.$inject = [ '$scope' ];
+  GuitarController.$inject = [];
 
-  function GuitarController( $scope ) {
+  function GuitarController() {
+
+    var vm = this;
 
   }
 

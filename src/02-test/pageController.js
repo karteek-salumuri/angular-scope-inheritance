@@ -6,9 +6,11 @@
     .module( 'guitarApp' )
     .controller( 'PageController', PageController );
 
-  PageController.$inject = [ '$scope' ];
+  PageController.$inject = [];
 
-  function PageController( $scope ) {
+  function PageController() {
+
+    var vm = this;
 
   }
   
