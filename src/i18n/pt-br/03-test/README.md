@@ -1,8 +1,9 @@
-# Test 3
+# Teste 3
 
 ### Code with `controllerAs` Syntax
+### Código com Sintaxe `controllerAs`
 
-* Controllers used: `pageController` and `guitarController`
-* ControllerAs used: `pageCtrl` and `guitarCtrl`.
+* Controllers usado: `pageController` e `guitarController`
+* ControllerAs usado: `pageCtrl` e `guitarCtrl`.
 
-**Result**: You can see [here](http://ericdouglas.github.io/angular-scope-inheritance/src/03-test/index.html) that if you use the `controllerAs` syntax, even the variables having different names that the ones used  for `this` in their respective controller, they don't produce any bad behavior. **That is very good also**!!!
+**Resultado**: Você pode ver [aqui](http://ericdouglas.github.io/angular-scope-inheritance/src/03-test/index.html) que se você usar a sintaxe `controllerAs`, mesmo as variáveis tendo nomes diferentes que os usados em `this` nos seus respectivos *controllers*, elas não produzem nenhum mal comportamento. **Isso é muito bom**!!!
