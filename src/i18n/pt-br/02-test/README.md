@@ -1,8 +1,9 @@
-# Test 2
+# Teste 2
 
 ### Code with `controllerAs` Syntax
+### Código com Sintaxe `controllerAs`
 
-* Controllers used: `pageController` and `guitarController`
-* ControllerAs used: `vm` and `vm`.
+* Controllers usados: `pageController` e `guitarController`
+* ControllerAs usados: `vm` e `vm`.
 
-**Result**: You can see [here](http://ericdouglas.github.io/angular-scope-inheritance/src/02-test/index.html) that if you use the `controllerAs` syntax, even the variables having the same name, they don't produce any interference in each other. **That is very good**!!!
+**Resultado**: Você pode ver [aqui](http://ericdouglas.github.io/angular-scope-inheritance/src/02-test/index.html) que se você usar a sintaxe `controllerAs`, mesmo as variáveis tendo o mesmo nome, elas não produzem nenhuma interferência uma na outra! **E isso é muito bom**!!!
